@@ -11,9 +11,9 @@
 첨부된 `.ipynb` 파일에 `_make_from_example`이 붙은 파일이 1번 방법으로 생성된 파일이고 `_make_from_colab`이 붙은 파일이 2번 방법으로 생성된 파일이다. 해당 파일들을 [Google Drive](https://drive.google.com/) 등에 upload하여 Colab으로 테스트해볼 수 있다.  
 
 |  파일 종류      | Multi TPUs (s) | Single TPU  (s) | GPU (s) |
-|  :---:        | :---:           | :---:          | :---:   |
-| 예제 파일       |<span style="color:red">32.868</span>          | 81.551         |    54.401 |
-| Colab 파일     |158.917         | <span style="color:red">127.238</span>         |131.210   |
+|  :---:        | :---:          | :---:           | :---:   |
+| 예제 파일       |**32.868**      | 81.551          |    54.401 |
+| Colab 파일     |158.917         | **127.238**     |131.210   |
 
 \* Colab의 경우 동일한 Hardware accelerator 옵션 내에서 매번 같은 device가 할당 되는 것이 아니기 때문에 위의 성능 비교는 조금씩 차이가 있을 수 있다.
 
